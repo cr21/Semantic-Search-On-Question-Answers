@@ -112,21 +112,3 @@ def search(query):
 
     return out
 
-
-if __name__ == "__main__":
-    es = connectToES("localhost", 9200)
-    # model = hub.load("https://tfhub.dev/google/universal-sentence-encoder/4")
-    model = hub.load("./data/USE4/")
-
-    while 100:
-        input_query = input("Enter Query Question : ")
-        start = time.time()
-
-        if input_query == "END":
-            break
-        print("Query : ".format(input_query))
-        lexicalSearch(es, input_query)
-        semantic_search_by_vector_similarity(es, input_query, model)
-
-        end = time.time()
-        print("Total Time taken {} ".format(end - start))
