@@ -7,8 +7,10 @@ import csv
 import tensorflow as tf
 import tensorflow_hub as hub
 
+
 #Connect to Elastic Search instance
 es = Elasticsearch([{"host": "localhost", "port": 9200}])
+
 
 print("[TESTING] Connection to ElasticSearch Server")
 if es.ping():
