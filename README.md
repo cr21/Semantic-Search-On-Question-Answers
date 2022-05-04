@@ -1,7 +1,7 @@
 # Machine Learning Design :  Searching in Question Answer Dataset
 
 ## Problem:
-Give a Query Efficiently retrieve Similar question from question answer repository.
+Give a query, Efficiently retrieve Similar question from question answer repository.
 
 This can be solved by building text similarity algorithms. Text Similarity can be usefule in many different
 areas.
