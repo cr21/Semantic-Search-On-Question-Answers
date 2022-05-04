@@ -229,6 +229,59 @@ We used cosineSimilarity for similarity search.
 
 ### Results 
 
+```yaml
+Query : time curl http://127.0.0.1:5000/search/DELETE+FILE+FROM+LINUX
+Results :  Type                 Score        Questions
+  
+ KeyWord [Lexical] Search : 13.654223	Delete numbers from a file
+ KeyWord [Lexical] Search : 12.897192	Ignore file from delete during WebDeploy
+ KeyWord [Lexical] Search : 12.897192	PHP, delete path from TXT file
+ KeyWord [Lexical] Search : 12.219694	Paperclip - delete a file from Amazon S3?
+ KeyWord [Lexical] Search : 11.75382	Linux File Logs
+ KeyWord [Lexical] Search : 11.609821	change sqlite file size after "DELETE FROM table"
+ KeyWord [Lexical] Search : 11.609821	Delete a line from a file in java
+ KeyWord [Lexical] Search : 11.609821	Delete a character from a file in C
+ KeyWord [Lexical] Search : 11.057932	How to delete lines from file after reading it?
+ KeyWord [Lexical] Search : 11.057932	Delete Duplicate records from large csv file C# .Net
+====================================================================================
+ Semantic Search : 1.6982048	remove certain tag in files under linux?
+ Semantic Search : 1.6897635	Removing a file in a Restricted Folder in Linux
+ Semantic Search : 1.6710172	Removing almost all directories and files in linux
+ Semantic Search : 1.6593639	Delete contents of a directory recursively on Windows
+ Semantic Search : 1.6564437	Maillog file in linux
+ Semantic Search : 1.6534	Bash: Delete until a specific file
+ Semantic Search : 1.6532037	How to only get file name with linux `find`?
+ Semantic Search : 1.6449786	linux releative path to fullpath file name
+ Semantic Search : 1.6393253	Delete read only files with Ant on windows
+ Semantic Search : 1.6357477	Delete unused files
+
+
+Query : time curl http://127.0.0.1:5000/search/Difference+betwen+lucene+elasticsearch+apache+solr
+Results:     Type            Score        Question
+ KeyWord [Lexical] Search : 23.839565	ElasticSearch, Sphinx, Lucene, Solr, Xapian. Which fits for which usage?
+ KeyWord [Lexical] Search : 17.337696	Solr lucene and "similar" keywords
+ KeyWord [Lexical] Search : 16.623175	searching using Apache Solr
+ KeyWord [Lexical] Search : 16.376442	Denormalizing relational data for lucene/solr
+ KeyWord [Lexical] Search : 16.376442	Choosing a solr/lucene commit strategy
+ KeyWord [Lexical] Search : 16.376442	Version incompatibility between Lucene and Solr
+ KeyWord [Lexical] Search : 14.780258	What is the difference betwen including modules and embedding modules?
+ KeyWord [Lexical] Search : 14.780258	What is the difference betwen boost::multi_array views and subarrays
+ KeyWord [Lexical] Search : 14.74178	Solr/Lucene behaves weird with some word searches
+ KeyWord [Lexical] Search : 14.74178	how do I normalise a solr/lucene score?
+=====================================================================================================================
+ Semantic Search : 1.8460855	ElasticSearch, Sphinx, Lucene, Solr, Xapian. Which fits for which usage?
+ Semantic Search : 1.8184654	Version incompatibility between Lucene and Solr
+ Semantic Search : 1.8119385	searching using Apache Solr
+ Semantic Search : 1.8102566	solr query analyzers
+ Semantic Search : 1.7987325	Neo4j indexing with Lucene and query with SOLR
+ Semantic Search : 1.7930639	What is the difference between EdgeNGramTokenizerFactory EdgeNGramFilterFactory in SOLR?
+ Semantic Search : 1.7795568	SOLR getting started, little help
+ Semantic Search : 1.7773565	Solr lucene and "similar" keywords
+ Semantic Search : 1.77633	Solr analyzer default type
+ Semantic Search : 1.7696992	How index cifs server with solr
+
+```
+
 ## Other Extended Applications:
     
 * Case Management in Customer Service Portal
